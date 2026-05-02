@@ -1,0 +1,18 @@
+{
+  "name": "s21nexor-portfolio",
+  "version": "1.0.0",
+  "description": "S21Nexor Developer Portfolio",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.105.1",
+    "@vitejs/plugin-react": "^4.7.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "vite": "^4.5.14"
+  }
+}
