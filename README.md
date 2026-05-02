@@ -1,10 +1,8 @@
-55219"}
 # 👋 Hi, I'm S21Nexor
 
 🚀 Web Developer | Dashboard Builder  
 💻 I build modern websites and control panels  
-🔥 Passionate about clean UI & fast performance  
-
+🔥 Passionate about clean UI & fast performance
 ---
 
 ## 🛠️ Skills
