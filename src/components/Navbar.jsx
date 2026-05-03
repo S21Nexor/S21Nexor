@@ -9,7 +9,7 @@ const links = [
   { label: 'Contact', href: '#contact' },
 ]
 
-export default function Navbar() {
+export default function Navbar({ user, onLogout }) {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
 
@@ -30,6 +30,11 @@ export default function Navbar() {
               <a href={l.href} onClick={() => setMenuOpen(false)}>{l.label}</a>
             </li>
           ))}
+          {user && (
+            <li>
+              <button onClick={onLogout} className={styles.logoutBtn}>Sign Out</button>
+            </li>
+          )}
         </ul>
 
         <button
